@@ -3,7 +3,7 @@ import numpy as np
 
 # Data of student's allowance based on lecture 3
 
-data = [200,200,200,300,200,300,200,400,250,250,200,200,300,200,200,180,240,100]
+data = [200,200,200,300,200,300,200,400,250,250,200,200,300,200,200,180,240,10]
 
 fig,ax = plt.subplots()
 ax.hist(data, bins=80,color="yellow", edgecolor='black')
@@ -21,3 +21,6 @@ ax.set_title("USTP Students Allowance")
 ax.set_xlabel("Allowance")
 ax.set_ylabel("Frequency")
 plt.show()
+
+
+
