@@ -5,7 +5,7 @@ data = [95, 90, 105, 108, 105, 110, 128, 124, 108, 100, 118, 130, 120, 108, 99, 
 
 
 print(f"Mean: {np.mean(data)}")
-print(f"Median: {np.median(data)}")
+print(f"Median {np.median(data)}")
 print(f"Mode {stats.mode(data, keepdims=True).mode[0]}")
 print(f"Range: {np.max(data) - np.min(data)}")
 print(f"Variance: {np.var(data, ddof=1)}")
